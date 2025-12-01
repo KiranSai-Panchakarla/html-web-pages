@@ -1,0 +1,49 @@
+<HTML>
+<HEAD>
+    <TITLE>Form Example</TITLE>
+</HEAD>
+<BODY>
+
+<!-- FormSubmit added here -->
+<FORM METHOD="POST" ACTION="https://formsubmit.co/panchakarlakiransai@gmail.com">
+
+    <H4>FORM</H4>
+
+    Enter your name here<br>
+    <INPUT TYPE="text" NAME="var1" SIZE="30" required>
+    <BR><BR>
+
+    <B>Are you a student?</B>
+    <INPUT TYPE="checkbox" NAME="var2">
+    <BR><BR>
+
+    <B>How old are you?</B><BR>
+
+    <INPUT TYPE="radio" NAME="var3" VALUE="10-15">10-15 <BR>
+    <INPUT TYPE="radio" NAME="var3" VALUE="16-20">16-20 <BR>
+    <INPUT TYPE="radio" NAME="var3" VALUE="21-25">21-25 <BR>
+    <BR>
+
+    <B>Where are you from?</B><BR>
+
+    <SELECT NAME="var6" SIZE="1">
+        <OPTION VALUE="BG">Bulgaria</OPTION>
+        <OPTION VALUE="UK">United Kingdom</OPTION>
+        <OPTION VALUE="USA" SELECTED>USA</OPTION>
+    </SELECT>
+    <BR><BR>
+
+    <B>Your comment:</B><BR>
+    <TEXTAREA NAME="var7" COLS="30" ROWS="6"></TEXTAREA>
+    <BR><BR>
+
+    <INPUT TYPE="submit" NAME="var4" VALUE="Send">
+    <INPUT TYPE="reset" NAME="var5" VALUE="Clear">
+
+    <!-- Required by FormSubmit -->
+    <input type="hidden" name="_captcha" value="false">
+
+</FORM>
+
+</BODY>
+</HTML>
